@@ -1,0 +1,26 @@
+seed: 42
+N_DAYS: 60
+
+Demand:
+  distribution: normal   # or "poisson"
+  mu: 100
+  sigma: 20
+
+LeadTime:
+  type: discrete
+  pmf:
+    3: 0.2
+    5: 0.6
+    7: 0.2
+
+Policy:
+  s: 200
+  S: 500
+
+Costs:
+  holding_cost: 1.0
+  stockout_penalty: 10.0
+
+Initial:
+  inventory0: 500
+  backorder0: 0
