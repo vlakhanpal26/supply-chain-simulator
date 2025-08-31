@@ -1,7 +1,9 @@
 - name: baseline
+  display: "Baseline"
   overrides: {}
 
 - name: supplier_delay_plus2
+  display: "Supplier Delay (+2 Days)"
   overrides:
     LeadTime:
       type: discrete
@@ -11,20 +13,24 @@
         9: 0.2
 
 - name: demand_spike_15pct
+  display: "Demand Spike (+15%)"
   overrides:
     Demand:
       mu: 115
 
 - name: policy_raise_sS
+  display: "Policy Increase (s,S +100)"
   overrides:
     Policy:
       s: 300
       S: 600
 
 - name: lognormal_lt
+  display: "Variable Delivery Time (Lognormal)"
   overrides:
     LeadTime:
       type: lognormal
       mu: 1.609437912   # ln(5)
       sigma: 0.3
       Lmax: 60
+
