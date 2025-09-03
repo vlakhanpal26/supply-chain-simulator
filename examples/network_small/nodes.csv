@@ -1,0 +1,5 @@
+node_id,echelon,init_on_hand
+SUP, supplier,0
+FAC, factory,0
+DC , dc      ,500
+C1 , customer,0

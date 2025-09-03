@@ -1,0 +1,4 @@
+from_id,to_id,lt_type,lt_param1,lt_param2,mode
+SUP,FAC,fixed,5,,
+FAC,DC ,fixed,7,,
+DC ,C1 ,fixed,1,,
