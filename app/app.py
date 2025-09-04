@@ -14,7 +14,16 @@ import plotly.express as px
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-from engine import run_scenario, compare_scenarios  # Phase-2 engine (with uniform/empirical/fixed support)
+import sys
+from pathlib import Path
+
+# ensure repo root is in Python path
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from phase2_engine import run_scenario, compare_scenarios
+  # Phase-2 engine (with uniform/empirical/fixed support)
 
 # ---------------- Page + Style ----------------
 st.set_page_config(page_title="Supply Chain Simulator", layout="wide")
