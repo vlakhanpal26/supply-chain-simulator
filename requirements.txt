@@ -1,3 +1,5 @@
-numpy 
+numpy
 pandas
 matplotlib
+pytest
+reportlab

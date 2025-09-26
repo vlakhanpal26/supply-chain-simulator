@@ -1,0 +1,13 @@
+[theme]
+base="light"
+primaryColor="#0A84FF"                  # iOS-style blue
+backgroundColor="#F7F9FC"               # soft canvas
+secondaryBackgroundColor="#FFFFFF"      # card white
+textColor="#0B1220"                     # ink
+font="sans serif"                       # Streamlit uses system fonts (SF Pro on macOS)
+
+[client]
+toolbarMode="minimal"
+
+[runner]
+magicEnabled=false
