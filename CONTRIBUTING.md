@@ -1,8 +1,3 @@
-# Contributing
-
-Thanks for considering a contribution! This project blends research and
-portfolio work, so we try to keep the repo in a clean, reproducible state.
-
 ## Getting Started
 1. Create/activate the working environment (conda recommended):
    ```bash
@@ -20,11 +15,9 @@ portfolio work, so we try to keep the repo in a clean, reproducible state.
    ```
 
 ## Guidelines
-- Keep dependencies in `requirements.txt`; `reportlab` is mandatory for PDF
+- Keep dependencies in `requirements.txt`; `reportlab` is mandatory for the PDF
   output and tests.
-- Stick to a clean, comprehensible code style—Black defaults are fine. Add
-  docstrings for new modules/functions.
-- Include tests for new behaviour. Seeded short-horizon simulations make good
+- Include tests for new behaviour. Seeded short horizon simulations make good
   regression tests.
 - Update the README or configs when you introduce new features or parameters.
 
@@ -35,4 +28,4 @@ portfolio work, so we try to keep the repo in a clean, reproducible state.
   screenshots/GIFs for UI updates.
 - Wait for tests to pass before requesting review.
 
-Thanks again—happy building!
+Thanks:)
