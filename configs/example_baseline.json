@@ -1,0 +1,9 @@
+{
+  "N_DAYS": 60,
+  "Demand": {"distribution": "normal", "mu": 100, "sigma": 20},
+  "LeadTime": {"type": "discrete", "pmf": {"3": 0.2, "5": 0.6, "7": 0.2}},
+  "Policy": {"s": 575, "S": 1200},
+  "Initial": {"on_hand": 500, "backorder": 0},
+  "Costs": {"holding_cost": 1.0, "stockout_penalty": 10.0},
+  "seed": 42
+}

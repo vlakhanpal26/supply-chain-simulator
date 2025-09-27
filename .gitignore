@@ -1,7 +1,20 @@
+# Python
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
 .venv/
+venv/
 .env
-outputs/
+*.env
+
+# OS / IDE
 .DS_Store
+.idea/
+.vscode/
+
+# Streamlit / outputs
+.streamlit/
+outputs/
+reports/
